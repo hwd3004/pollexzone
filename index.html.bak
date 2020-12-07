@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="header">
+
+        <div class="header_1st_line">
+
+          <div class="logo_div">
+            <a href="#"> <img src="images\logo.png" alt=""> </a>
+          </div>
+
+          <div class="nav">
+            <ul>
+              <li> <a href="#"> <h2 class="nav_category_text">폴렉스존 소개</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3 class="nav_category_menu">기업소개</h3> </a></li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">주요고객사</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">센터현황</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">오시는 길</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <h2 class="nav_category_text">사업영역</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3 class="nav_category_menu">사업영역</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <h2 class="nav_category_text">핵심경쟁력</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3 class="nav_category_menu">전문 운영조직</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">센터운영 및 컨설팅</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">시스템 & 인프라</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <h2 class="nav_category_text">폴렉스존 소식</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3 class="nav_category_menu">공지사항</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">인증 및 수상내역</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">고객문의</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <h2 class="nav_category_text nav_category_last">인재채용</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3 class="nav_category_menu">인재상</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">채용안내</h3> </a> </li>
+                  <li> <a href="#"> <h3 class="nav_category_menu">채용공고</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal_div">
+            <input type="checkbox" id="modal">
+
+            <!-- 1번 케이스 -->
+            <!-- <label for="modal">
+              <div class="button">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </label> -->
+
+            <!-- 2번 케이스 -->
+            <!-- <div class="button">
+              <label for="modal">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div> -->
+
+            <!-- 3번 케이스 -->
+            <div class="button">
+              <label for="modal"></label>
+              <label for="modal"></label>
+              <label for="modal"></label>
+              <label for="modal"></label>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="layer_popup">
+          <div class="layer_popup_h1">
+            <a href="#"> <h1>POLLEXZONE</h1> </a>
+          </div>
+
+          <div class="layer_popup_category">
+            <ul>
+              <li> <a href="#"> <span>01</span>  </a> </li>
+              <li> <a href="#"> <h2>폴렉스존 소개</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>기업소개</h3> </a> </li>
+                  <li> <a href="#"> <h3>주요고객사</h3> </a> </li>
+                  <li> <a href="#"> <h3>센터현황</h3> </a> </li>
+                  <li> <a href="#"> <h3>오시는 길</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>02</span>  </a> </li>
+              <li> <a href="#"> <h2>사업영역</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>사업영역</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>03</span>  </a> </li>
+              <li> <a href="#"> <h2>핵심경쟁력</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>전문 운영조직</h3> </a> </li>
+                  <li> <a href="#"> <h3>센터운영 및 컨설팅</h3> </a> </li>
+                  <li> <a href="#"> <h3>시스템 & 인프라</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>04</span>  </a> </li>
+              <li> <a href="#"> <h2>폴렉스존 소식</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>공지사항</h3> </a> </li>
+                  <li> <a href="#"> <h3>인증 및 수상 내역</h3> </a> </li>
+                  <li> <a href="#"> <h3>고객문의</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>05</span>  </a> </li>
+              <li> <a href="#"> <h2>인재채용</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>인재상</h3> </a> </li>
+                  <li> <a href="#"> <h3>채용안내</h3> </a> </li>
+                  <li> <a href="#"> <h3>채용공고</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="layer_popup_category layer_popup_category_mirror">
+            <ul>
+              <li> <a href="#"> <span>01</span>  </a> </li>
+              <li> <a href="#"> <h2>폴렉스존 소개</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>기업소개</h3> </a> </li>
+                  <li> <a href="#"> <h3>주요고객사</h3> </a> </li>
+                  <li> <a href="#"> <h3>센터현황</h3> </a> </li>
+                  <li> <a href="#"> <h3>오시는 길</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>02</span>  </a> </li>
+              <li> <a href="#"> <h2>사업영역</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>사업영역</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>03</span>  </a> </li>
+              <li> <a href="#"> <h2>핵심경쟁력</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>전문 운영조직</h3> </a> </li>
+                  <li> <a href="#"> <h3>센터운영 및 컨설팅</h3> </a> </li>
+                  <li> <a href="#"> <h3>시스템 & 인프라</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>04</span>  </a> </li>
+              <li> <a href="#"> <h2>폴렉스존 소식</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>공지사항</h3> </a> </li>
+                  <li> <a href="#"> <h3>인증 및 수상 내역</h3> </a> </li>
+                  <li> <a href="#"> <h3>고객문의</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul>
+              <li> <a href="#"> <span>05</span>  </a> </li>
+              <li> <a href="#"> <h2>인재채용</h2> </a>
+                <ul>
+                  <li> <a href="#"> <h3>인재상</h3> </a> </li>
+                  <li> <a href="#"> <h3>채용안내</h3> </a> </li>
+                  <li> <a href="#"> <h3>채용공고</h3> </a> </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="header_2nd_line">
+
+          <div class="corp_title">
+            <h1>POLLEXZONE</h1>
+
+            <div class="more_button_div1">
+                <div class="more_button_div2">
+                  <a href="#">More +</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="corp_intro">
+              <div class="corp_intro_h2">
+                <h2>전문성과 풍부한 경험이 있는 운영 컨설팅,</h2>
+              </div>
+              <div class="corp_intro_h2">
+                <h2>지속적인 성장과 질 높은 서비스</h2>
+              </div>
+          </div>
+
+        </div>
+
+        <!-- <div class="more_button_div1">
+            <div class="more_button_div2">
+              <a href="#">More +</a>
+            </div>
+        </div> -->
+
+        <div class="header_3rd_line">
+          <div class="header_img_div1">
+            <img src="images\header img.jpg" alt="">
+          </div>
+
+          <div class="header_img_div2">
+            <img src="images\c1000.png" alt="">
+            <div class="header_img_div2_lv1">
+              <div class="header_img_div2_lv2">
+                <p>The Best Experience</p>
+                <p>최고 수준의 지식과 경험이 있는 토탈 고객관리서비스에 앞장 선 폴렉스존 입니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </header>
+
+      <section class="section_01">
+
+        <div class="section_01_img_div">
+
+          <div class="section_01_img_div_01">
+            <a href="#"> <img src="images\a500.jpg" alt=""> </a>
+            <div class="s01_i01_text">
+              <p>상담운영 아웃소싱</p>
+              <span>In & Out Bound Service 운영진단 서비스 / 모니터링, 상담조직 채용 및 교육서비스</span>
+            </div>
+            <div class="effect s01_i01_effect">
+
+            </div>
+          </div>
+
+          <div class="section_01_img_div_02">
+            <div class="">
+              <div class="">
+                <a href="#"> <img src="images\b500.jpg" alt=""> </a>
+                <div class="s01_i02_text">
+                  <p>구축 및 운영 컨설팅</p>
+                  <span>시스템 구축 및 아웃소싱 컨설팅, IP 기반 상담운영 CRM 컨설팅, Biz-model 컨설팅</span>
+                </div>
+                <div class="effect s01_i02_effect">
+
+                </div>
+              </div>
+              <div class="s01_div02">
+                <a href="#"> <img src="images\c500.jpg" alt=""> </a>
+                <div class="s01_i02_text">
+                  <p>마케팅 CRM 전략지원</p>
+                  <span>In & Out BOund Service, 상담조직 채용 및 교육 서비스</span>
+                </div>
+                <div class="effect s01_i03_effect">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="">
+                <a href="#"> <img src="images\d500.jpg" alt=""> </a>
+                <div class="s01_i02_text">
+                  <p>컨텍센터 구축</p>
+                  <span>컨텍센터 Infra 구축, 상담시스템 유지보수 센터 Infra 유지보수, 운영 모니터링 서비스</span>
+                </div>
+                <div class="effect s01_i04_effect">
+
+                </div>
+              </div>
+              <div class="s01_d05">
+                <a href="#"> <img src="images\e500.jpg" alt=""> </a>
+                <div class="s01_i02_text">
+                  <p>상담센터 ASP 사업</p>
+                  <span>상담석, Call Center Infra, 상담어플리케이션, Infra 모니터링 시스템</span>
+                </div>
+                <div class="effect s01_i05_effect">
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="section_02">
+
+        <h3>핵심경쟁력</h3>
+
+        <div class="section_02_div">
+
+          <input type="radio" id="s02_sl01" name="s02_sl" value="" checked>
+          <input type="radio" id="s02_sl02" name="s02_sl" value="">
+          <input type="radio" id="s02_sl03" name="s02_sl" value="">
+
+          <div class="s02_img_div">
+
+            <div class="s02_i01">
+              <img src="images\s2_i01.jpg" alt="">
+              <div class="s02_text s02_i01_text">
+                <p>전문 운영조직</p>
+                <span>분야별 전문화된 운영조직 및 인력 운영으 효율적인 운영관리</span>
+              </div>
+              <div class="s02_button">
+                <a href="#"> <span>more +</span> </a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="s02_img_div">
+
+            <div class="s02_i02">
+              <img src="images\s2_i02.jpg" alt="">
+              <div class="s02_text s02_i02_text">
+                <p>전문 운영조직</p>
+                <span>분야별 전문화된 운영조직 및 인력 운영으 효율적인 운영관리</span>
+              </div>
+              <div class="s02_button">
+                <a href="#"> <span>more +</span> </a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="s02_img_div">
+
+            <div class="s02_i03">
+              <img src="images\s2_i03.jpg" alt="">
+              <div class="s02_text s02_i03_text">
+                <p>전문 운영조직</p>
+                <span>분야별 전문화된 운영조직 및 인력 운영으 효율적인 운영관리</span>
+              </div>
+              <div class="s02_button">
+                <a href="#"> <span>more +</span> </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="s02_sl_page">
+            <label for="s02_sl01">●</label>
+            <label for="s02_sl02">●</label>
+            <label for="s02_sl03">●</label>
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <section class="section_03">
+
+        <a href="#" class="s03_p_button">
+          <p class="s03_page_p">●</p>
+          <span>마포센터</span>
+        </a>
+
+        <a href="#" class="s03_p_button">
+          <p class="s03_page_p">●</p>
+          <span>공덕센터</span>
+
+        <a href="#" class="s03_p_button">
+          <p class="s03_page_p">●</p>
+          <span>서울센터</span>
+        </a>
+
+
+        <div class="s03_img_div">
+          <div class="s03_i01 s03_i">
+            <img src="images\s03_01.jpg" alt="">
+            <div class="s03_text">
+              <p class="s03_t_1st">센터현황</p>
+              <a href="#"> <p class="s03_t_2nd">마포센터 +</p> </a>
+              <p class="s03_t_3rd">폴렉스존의 마포센터는 지하철5호선 역세권에 위치해 있으며,</p>
+              <p class="s03_t_4th">교통망이 편리하여 수도권 및 서울의 우수인력 채용이 용이한 센터입니다.</p>
+            </div>
+          </div>
+          <div class="s03_i02  s03_i">
+            <img src="images\s03_02.jpg" alt="">
+            <div class="s03_text">
+              <p class="s03_t_1st">센터현황</p>
+              <a href="#"> <p class="s03_t_2nd">공덕센터 +</p> </a>
+              <p class="s03_t_3rd">폴렉스존의 공덕센터는 지하철5, 6호선 및 공항철도 등 교통망이 편리하여</p>
+              <p class="s03_t_4th">수도권 및 서울의 우수인력 채용이 용이한 센터입니다.</p>
+            </div>
+          </div>
+          <div class="s03_i03  s03_i">
+            <img src="images\s03_03.jpg" alt="">
+            <div class="s03_text">
+              <p class="s03_t_1st">센터현황</p>
+              <a href="#"> <p class="s03_t_2nd">서울센터 +</p> </a>
+              <p class="s03_t_3rd">폴렉스존의 서울센터는 고난이도의 Sales Skill을 요구하는 금융,</p>
+              <p class="s03_t_4th">보험(DCDS)등 Sales를 위해 4대문안에 구축한 유일한 명품콜센터 입니다.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <div class="space">
+
+      </div>
+
+
+
+
+
+      <footer class="footer">
+
+        <div class="footer_logo">
+          <img src="images\logo.png" alt="">
+        </div>
+
+        <address class="address">
+          <p>주식회사 : 폴렉스존 대표자 : 김민규 사업자번호 : 105-87-01019 주소 : 서울 마포구 마포대로 34 (04174)</p>
+          <p>대표번호 : 070-7600-4925 팩스번호 : 02-322-8176 개인정보보호책임자 : 김민규</p>
+        </address>
+
+        <div class="other">
+          <div class="other_div">
+            <a href="#"><span>직원전용</span></a>
+            <a href="#"><span>개인정보처리방침</span></a>
+            <a href="#"><span>문의하기</span></a>
+          </div>
+          <p>Copyright(C)2014 Pollexzone. ALL RIGHTS RESERVED.</p>
+        </div>
+      </footer>
+
+    </div>
+    <!-- wrapper /div -->
+
+    <script src="js\index.js" charset="utf-8"></script>
+    <script src="js\jquery-3.5.1.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+
+      $('.layer_popup_category_mirror>ul>li').click(function(){
+        $(this).parent().siblings().find('ul').slideUp(300);
+        $(this).children('ul').stop(true, false, true).slideToggle(300);
+      })
+
+
+
+      // $(window).resize(function(){
+      //   var width = $(window).width();
+      //   if(width<1100){
+      //     $('.layer_popup_category>ul>li').click(function(){
+      //       $(this).parent().siblings().find('ul').slideUp(300);
+      //       $(this).children('ul').stop(true, false, true).slideToggle(300);
+      //     })
+      //   }
+      // })
+
+      // var s03_page_p = document.querySelectorAll('.s03_page_p');
+      // var s03_i = document.querySelectorAll('.s03_i');
+      // var s03_count = 0;
+      //
+      // for (var i = 0; i < s03_page_p.length; i++) {
+      //   $(s03_page_p[i]).hover(function(){
+      //     for (var j = 0; j < s03_i.length; j++) {
+      //       s03_i[j].style.display = 'none';
+      //     }
+      //     s03_i[i].style.display = 'block';
+      //   })
+      // }
+
+    </script>
+  </body>
+</html>
